@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(172,167,255,1) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(53, 53, 53);
     margin: 0 auto;
 }
 
@@ -20,7 +19,7 @@ header {
 }
 section.top{
     background: url(media/fond1.png);
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     padding: 25px;
 }
@@ -37,9 +36,37 @@ nav.nav li{
     color: white;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
 .titre{
     color: white;
     font-size: 120px;
     font-family: 'MedievalSharp', cursive;
     margin-left: 36%;
+}
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.services-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.services-detail{
+    font-weight: 550;
+    width: 200px;
+    text-align: center;
+    color: white;
 }
